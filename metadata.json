@@ -1,0 +1,6 @@
+{
+  "name": "PRAVAH — Industrial Regulatory Orchestration",
+  "description": "Smart India Hackathon 2026 PS-130 platform orchestrating industrial clearances, topological DAG dependencies, evidence wallet fact verification, and statutory SLA compliance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

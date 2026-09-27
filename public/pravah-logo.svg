@@ -1,0 +1,83 @@
+<svg width="256" height="256" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="emblemBgGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0B132B" />
+      <stop offset="50%" stopColor="#1C2541" />
+      <stop offset="100%" stopColor="#0A1128" />
+    </linearGradient>
+
+    <linearGradient id="amberStream" x1="15" y1="20" x2="85" y2="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FF7A00" />
+      <stop offset="50%" stopColor="#FF9E00" />
+      <stop offset="100%" stopColor="#FFAA00" />
+    </linearGradient>
+
+    <linearGradient id="blueStream" x1="10" y1="50" x2="90" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#00F5D4" />
+      <stop offset="45%" stopColor="#00BBF9" />
+      <stop offset="100%" stopColor="#0077B6" />
+    </linearGradient>
+
+    <linearGradient id="royalStream" x1="30" y1="80" x2="80" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#3A86FF" />
+      <stop offset="60%" stopColor="#4361EE" />
+      <stop offset="100%" stopColor="#7209B7" />
+    </linearGradient>
+
+    <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="100" height="100" rx="24" fill="url(#emblemBgGrad)" />
+  <rect width="98" height="98" x="1" y="1" rx="23" stroke="#38BDF8" strokeOpacity="0.3" strokeWidth="1.5" />
+
+  <g>
+    <!-- Backbone 'P' -->
+    <path
+      d="M26 80V25C26 22.2386 28.2386 20 31 20H45C58 20 68 28 68 40C68 51.5 58.5 59 46 59H35V80H26Z"
+      fill="none"
+      stroke="url(#royalStream)"
+      strokeWidth="7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      opacity="0.9"
+    />
+
+    <!-- Saffron Crest -->
+    <path
+      d="M32 30C42 22 58 20 70 28C79 34 81 46 76 55C70 65 55 65 42 55"
+      fill="none"
+      stroke="url(#amberStream)"
+      strokeWidth="6"
+      strokeLinecap="round"
+      filter="url(#logoGlow)"
+    />
+
+    <!-- Cyan Stream -->
+    <path
+      d="M18 58C28 45 42 40 56 46C68 51 77 47 84 38"
+      fill="none"
+      stroke="url(#blueStream)"
+      strokeWidth="6"
+      strokeLinecap="round"
+    />
+
+    <!-- Lower Flow -->
+    <path
+      d="M22 72C34 60 48 62 60 70C70 76 78 74 85 66"
+      fill="none"
+      stroke="#38BDF8"
+      strokeWidth="4.5"
+      strokeLinecap="round"
+      opacity="0.85"
+    />
+
+    <!-- Orchestration Nodes -->
+    <circle cx="28" cy="48" r="4.5" fill="#00F5D4" stroke="#0B132B" strokeWidth="1.5" />
+    <circle cx="56" cy="46" r="4" fill="#FF9E00" stroke="#0B132B" strokeWidth="1.5" />
+    <circle cx="70" cy="28" r="4.5" fill="#10B981" stroke="#0B132B" strokeWidth="1.5" />
+    <circle cx="68" cy="67" r="3.5" fill="#3A86FF" stroke="#0B132B" strokeWidth="1.5" />
+  </g>
+</svg>
